@@ -6,47 +6,44 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado:  "o quiabo,o jiló "
+        enunciado: "O quiabo, o jiló e o maxixe são exemplos de alimentos de qual origem?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: " "
+                texto: "Origem africana",
+                afirmacao: "há relatos que o quiabo tenha sido introduzido á culinária brasileira a partir de 1658"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "idonesia e africa",
+                afirmacao: "A planta tem origem na África e se adaptou super bem no Brasil. O solo ideal para cultivo possui textura argilo-arenosa, sendo possível produzir em solos de outras texturas. "
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "cuscuz é um dos principais pratos da culinária Africana, especificamente em quais países? ",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Norte da África, como Argélia, Tunisia e Marrocos",
+                afirmacao: "Estima-se que o prato foi criado na África, por volta do século XIII"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Líbia, Saara Ocidental.",
+                afirmacao: " por volta do Século XIII pelos berberes."
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "O jiló, tem origem em que região?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "Angola e Moçambique",
+                afirmacao: "início do século XVII com os escravizados que vieram cultivar cana em Pernambuco."
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "originário da Ásia, outros da África",
+                afirmacao: "Foi introduzido no Brasil no século XVII"
             }
         ]
-    },
-];
-
-
+    }
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
